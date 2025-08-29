@@ -10,12 +10,6 @@
     padding: 0;
 }
 
-html,
-body {
-    width: 100%;
-    overflow-x: hidden;
-}
-
 /* history card design */
 
 .history-cards {
@@ -26,7 +20,7 @@ body {
     padding: 16px;
     border-radius: 10px;
     flex-direction: column; 
-    gap: 12px;
+    gap: 20px;
 
 }
 
@@ -35,7 +29,9 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #FAFAFA;
-    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 16px;
     border-radius: 12px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     width: 100%;
@@ -44,8 +40,8 @@ body {
 
 .history-info {
     display: flex;
-    justify-content: space-between; /* spread service info and time */
-    align-items: center; /* vertically center */
+    justify-content: space-between; 
+    align-items: center; 
     width: 100%;
 }
 
@@ -64,7 +60,6 @@ body {
 
 .history-time {
     font-size: 0.9rem;
-    color: gray;
 }
 
 
@@ -223,11 +218,15 @@ main {
     border-radius: 20px 20px 0 0;
 }
 
+.sidebar-nav h2 {
+    font-weight: 600;
+}
+
 .sidebar-nav button {
     padding: 14px 35px;
     background-color: #00A63E;
     color: #FFFFFF;
-    font: 1rem;
+    font-size: 1.15rem;
     border: none;
     border-radius: 50px;
 }

@@ -41,7 +41,7 @@ const calls1 = document.getElementById('National Emergency')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12:true });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -51,13 +51,12 @@ const calls1 = document.getElementById('National Emergency')
             <div class="history-info">
                 <div class="history-text">
                     <p class="service-name">National Emergency Number</p>
-                    <p class="service-number">999</p>
+                    <hp class="service-number">999</p>
                 </div>
                 <p class="history-time">${time}</p>
             </div>
             `;
 
-            // Append to the history container
             const historyContainer = document.querySelector('.history-cards');
             historyContainer.appendChild(nationalEmergencyHistory);
 
@@ -87,7 +86,7 @@ const calls2 = document.getElementById('Police Helpline Number')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12:true });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -103,7 +102,6 @@ const calls2 = document.getElementById('Police Helpline Number')
             </div>
             `;
 
-            // Append to the history container
             const historyContainer = document.querySelector('.history-cards');
             historyContainer.appendChild(nationalEmergencyHistory);
 
@@ -131,7 +129,7 @@ const calls3 = document.getElementById('Fire Service Number')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12:true });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -147,7 +145,6 @@ const calls3 = document.getElementById('Fire Service Number')
             </div>
             `;
 
-            // Append to the history container
             const historyContainer = document.querySelector('.history-cards');
             historyContainer.appendChild(nationalEmergencyHistory);
 
@@ -175,7 +172,7 @@ const calls4 = document.getElementById('Ambulance Service')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12:true });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -191,7 +188,6 @@ const calls4 = document.getElementById('Ambulance Service')
             </div>
             `;
 
-            // Append to the history container
             const historyContainer = document.querySelector('.history-cards');
             historyContainer.appendChild(nationalEmergencyHistory);
 
@@ -219,7 +215,7 @@ const calls5 = document.getElementById('Women & Child Helpline')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12:true });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -235,7 +231,6 @@ const calls5 = document.getElementById('Women & Child Helpline')
             </div>
             `;
 
-            // Append to the history container
             const historyContainer = document.querySelector('.history-cards');
             historyContainer.appendChild(nationalEmergencyHistory);
 
@@ -263,7 +258,7 @@ const calls6 = document.getElementById('Anti-Corruption Helpline')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12:true });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -279,7 +274,6 @@ const calls6 = document.getElementById('Anti-Corruption Helpline')
             </div>
             `;
 
-            // Append to the history container
             const historyContainer = document.querySelector('.history-cards');
             historyContainer.appendChild(nationalEmergencyHistory);
 
@@ -309,7 +303,7 @@ const calls7 = document.getElementById('Electricity Helpline')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12:true });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -325,7 +319,6 @@ const calls7 = document.getElementById('Electricity Helpline')
             </div>
             `;
 
-            // Append to the history container
             const historyContainer = document.querySelector('.history-cards');
             historyContainer.appendChild(nationalEmergencyHistory);
 
@@ -353,7 +346,7 @@ const calls8 = document.getElementById('Brac Helpline')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12:true });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -369,7 +362,6 @@ const calls8 = document.getElementById('Brac Helpline')
             </div>
             `;
 
-            // Append to the history container
             const historyContainer = document.querySelector('.history-cards');
             historyContainer.appendChild(nationalEmergencyHistory);
 
@@ -396,7 +388,7 @@ const calls9 = document.getElementById('Bangladesh Railway Helpline')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12:true });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -412,7 +404,6 @@ const calls9 = document.getElementById('Bangladesh Railway Helpline')
             </div>
             `;
 
-            // Append to the history container
             const historyContainer = document.querySelector('.history-cards');
             historyContainer.appendChild(nationalEmergencyHistory);
 
