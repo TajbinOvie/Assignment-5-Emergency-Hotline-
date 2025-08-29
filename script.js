@@ -41,7 +41,7 @@ const calls1 = document.getElementById('National Emergency')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -64,7 +64,7 @@ const calls1 = document.getElementById('National Emergency')
 
         }
         else {
-            alert('not enoigh coins');
+            alert('❌ You dont have sufficiant coins. Minimum 20 coins are required per call.');
         }
     })
 
@@ -87,7 +87,7 @@ const calls2 = document.getElementById('Police Helpline Number')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -110,7 +110,7 @@ const calls2 = document.getElementById('Police Helpline Number')
 
         }
         else {
-            alert('not enoigh coins');
+            alert('❌ You dont have sufficiant coins. Minimum 20 coins are required per call.');
         }
     })
 
@@ -131,7 +131,7 @@ const calls3 = document.getElementById('Fire Service Number')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -154,7 +154,7 @@ const calls3 = document.getElementById('Fire Service Number')
 
         }
         else {
-            alert('not enoigh coins');
+           alert('❌ You dont have sufficiant coins. Minimum 20 coins are required per call.');
         }
     })
 
@@ -175,7 +175,7 @@ const calls4 = document.getElementById('Ambulance Service')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -198,7 +198,7 @@ const calls4 = document.getElementById('Ambulance Service')
 
         }
         else {
-            alert('not enoigh coins');
+           alert('❌ You dont have sufficiant coins. Minimum 20 coins are required per call.');
         }
     })
 
@@ -219,7 +219,7 @@ const calls5 = document.getElementById('Women & Child Helpline')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -242,7 +242,7 @@ const calls5 = document.getElementById('Women & Child Helpline')
 
         }
         else {
-            alert('not enoigh coins');
+           alert('❌ You dont have sufficiant coins. Minimum 20 coins are required per call.');
         }
     })
 
@@ -263,7 +263,7 @@ const calls6 = document.getElementById('Anti-Corruption Helpline')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -286,7 +286,7 @@ const calls6 = document.getElementById('Anti-Corruption Helpline')
 
         }
         else {
-            alert('not enoigh coins');
+            alert('❌ You dont have sufficiant coins. Minimum 20 coins are required per call.');
         }
     })
 
@@ -309,7 +309,7 @@ const calls7 = document.getElementById('Electricity Helpline')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -332,7 +332,7 @@ const calls7 = document.getElementById('Electricity Helpline')
 
         }
         else {
-            alert('not enoigh coins');
+            alert('❌ You dont have sufficiant coins. Minimum 20 coins are required per call.');
         }
     })
 
@@ -353,7 +353,7 @@ const calls8 = document.getElementById('Brac Helpline')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -376,7 +376,7 @@ const calls8 = document.getElementById('Brac Helpline')
 
         }
         else {
-            alert('not enoigh coins');
+            alert('❌ You dont have sufficiant coins. Minimum 20 coins are required per call.');
         }
     })
 
@@ -396,7 +396,7 @@ const calls9 = document.getElementById('Bangladesh Railway Helpline')
 
 
             const now = new Date();
-            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
 
             const nationalEmergencyHistory = document.createElement('div');
@@ -419,7 +419,7 @@ const calls9 = document.getElementById('Bangladesh Railway Helpline')
 
         }
         else {
-            alert('not enoigh coins');
+            alert('❌ You dont have sufficiant coins. Minimum 20 coins are required per call.');
         }
     })
 
@@ -437,7 +437,10 @@ for (const copy of copys) {
 
         const number = card.querySelector('h2').innerText;
 
-        navigator.clipboard.writeText(number);
+        navigator.clipboard.writeText(number).then(function (e) {
+            alert('📋 Copied: ' + number);
+
+        });
 
         copyCount++;
         document.getElementById('main-copy-count').innerText = copyCount;
