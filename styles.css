@@ -1,19 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
 
 .hind-madurai-regular {
-  font-family: "Hind Madurai", sans-serif;
-  font-style: normal;
+    font-family: "Hind Madurai", sans-serif;
+    font-style: normal;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     overflow-x: hidden;
 }
+
+/* history card design */
+
+.history-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 24px;
+    padding: 16px;
+    border-radius: 10px;
+    flex-direction: column; 
+    gap: 12px;
+
+}
+
+.history-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.history-info {
+    display: flex;
+    justify-content: space-between; /* spread service info and time */
+    align-items: center; /* vertically center */
+    width: 100%;
+}
+
+.history-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-name {
+    font-weight: 600;
+}
+
+.service-number {
+    color: gray;
+}
+
+.history-time {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+
+
+/* -------------------------------- */
 
 
 .nav-bar {
@@ -73,10 +129,10 @@ html, body {
 
 main {
     display: grid;
-    grid-template-columns: 70% 30%; 
+    grid-template-columns: 70% 30%;
     gap: 20px;
     background-color: #F5FFF6;
-    width: 100%;                   
+    width: 100%;
     padding: 45px 45px 86px 58px;
     box-sizing: border-box;
 }
@@ -154,7 +210,7 @@ main {
     padding-right: 24px;
     padding-top: 24px;
     padding-bottom: 16px;
-    border-radius: 20px 20px 0 0 ;
+    border-radius: 20px 20px 0 0;
 }
 
 .sidebar-nav button {
@@ -231,5 +287,3 @@ main {
         border-radius: 12px;
     }
 }
-
-

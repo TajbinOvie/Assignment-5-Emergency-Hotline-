@@ -19,11 +19,11 @@
                 <h1 class="nav-header">Emergency <br>Service</h1>
             </div>
             <div class="nav-right">
-                <p class="heart"><span>0</span>&nbsp;&nbsp;<img src="./assets/heart.png" alt="" width="30px"
+                <p class="heart"><span id="main-heart">0</span>&nbsp;&nbsp;<img src="./assets/heart.png" alt="" width="30px"
                         height="30px"></p>
-                <p class="coin"><span>100</span>&nbsp;&nbsp;<img src="./assets/coin.png" alt="" width="24px"
+                <p class="coin"><span id="coins">100</span>&nbsp;&nbsp;<img src="./assets/coin.png" alt="" width="24px"
                         height="24px"></p>
-                <p class="copy" id="copy"><span>2</span>&nbsp;&nbsp;Copy</p>
+                <p class="copy" id="copy"><span id="main-copy-count">0</span>&nbsp;&nbsp;Copy</p>
             </div>
         </div>
 
@@ -44,7 +44,7 @@
                         <div class="img-left"><img src="./assets/emergency.png" alt="emergency-img" height="32px" width="32px">
                         </div>
                         <div class="img-right">
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-icon"></i>
                         </div>
                     </div>
                     <h3>National Emergency Number</h3>
@@ -53,7 +53,7 @@
                     <p class="card-tag">All</p>
                     <div class="btn-div">
                         <button class="btn-left"><i class="fa-solid fa-clone"></i>&nbsp;Copy</button>
-                        <button class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
+                        <button id="National Emergency" class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
                     </div>
                 </div>
                 <div class="card">
@@ -61,7 +61,7 @@
                         <div class="img-left"><img src="./assets/police.png" alt="emergency-img" height="32px" width="32px">
                         </div>
                         <div class="img-right">
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-icon"></i>
                         </div>
                     </div>
                     <h3>Police Helpline Number</h3>
@@ -70,7 +70,7 @@
                     <p class="card-tag">Police</p>
                     <div class="btn-div">
                         <button class="btn-left"><i class="fa-solid fa-clone"></i>&nbsp;Copy</button>
-                        <button class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
+                        <button id="Police Helpline Number" class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
                     </div>
                 </div>
                 <div class="card">
@@ -78,7 +78,7 @@
                         <div class="img-left"><img src="./assets/fire-service.png" alt="emergency-img" height="32px" width="32px">
                         </div>
                         <div class="img-right">
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-icon"></i>
                         </div>
                     </div>
                     <h3>Fire Service Number</h3>
@@ -87,7 +87,7 @@
                     <p class="card-tag">Fire</p>
                     <div class="btn-div">
                         <button class="btn-left"><i class="fa-solid fa-clone"></i>&nbsp;Copy</button>
-                        <button class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
+                        <button id="Fire Service Number" class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
                     </div>
                 </div>
                 <div class="card">
@@ -95,7 +95,7 @@
                         <div class="img-left"><img src="./assets/ambulance.png" alt="emergency-img" height="32px" width="32px">
                         </div>
                         <div class="img-right">
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-icon"></i>
                         </div>
                     </div>
                     <h3>Ambulance Service</h3>
@@ -104,7 +104,7 @@
                     <p class="card-tag">Health</p>
                     <div class="btn-div">
                         <button class="btn-left"><i class="fa-solid fa-clone"></i>&nbsp;Copy</button>
-                        <button class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
+                        <button id="Ambulance Service" class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
                     </div>
                 </div>
                 <div class="card">
@@ -112,7 +112,7 @@
                         <div class="img-left"><img src="./assets/emergency.png" alt="emergency-img" height="32px" width="32px">
                         </div>
                         <div class="img-right">
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-icon"></i>
                         </div>
                     </div>
                     <h3>Women & Child Helpline</h3>
@@ -121,7 +121,7 @@
                     <p class="card-tag">Help</p>
                     <div class="btn-div">
                         <button class="btn-left"><i class="fa-solid fa-clone"></i>&nbsp;Copy</button>
-                        <button class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
+                        <button id="Women & Child Helpline" class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
                     </div>
                 </div>
                 <div class="card">
@@ -129,7 +129,7 @@
                         <div class="img-left"><img src="./assets/emergency.png" alt="emergency-img" height="32px" width="32px">
                         </div>
                         <div class="img-right">
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-icon"></i>
                         </div>
                     </div>
                     <h3>Anti-Corruption Helpline</h3>
@@ -138,7 +138,7 @@
                     <p class="card-tag">Govt.</p>
                     <div class="btn-div">
                         <button class="btn-left"><i class="fa-solid fa-clone"></i>&nbsp;Copy</button>
-                        <button class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
+                        <button id="Anti-Corruption Helpline" class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
                     </div>
                 </div>
                 <div class="card">
@@ -146,7 +146,7 @@
                         <div class="img-left"><img src="./assets/emergency.png" alt="emergency-img" height="32px" width="32px">
                         </div>
                         <div class="img-right">
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-icon"></i>
                         </div>
                     </div>
                     <h3>Electricity Helpline</h3>
@@ -155,7 +155,7 @@
                     <p class="card-tag">Electricity</p>
                     <div class="btn-div">
                         <button class="btn-left"><i class="fa-solid fa-clone"></i>&nbsp;Copy</button>
-                        <button class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
+                        <button id="Electricity Helpline" class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
                     </div>
                 </div>
                 <div class="card">
@@ -163,7 +163,7 @@
                         <div class="img-left"><img src="./assets/emergency.png" alt="emergency-img" height="32px" width="32px">
                         </div>
                         <div class="img-right">
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-icon"></i>
                         </div>
                     </div>
                     <h3>Brac Helpline</h3>
@@ -172,7 +172,7 @@
                     <p class="card-tag">NGO</p>
                     <div class="btn-div">
                         <button class="btn-left"><i class="fa-solid fa-clone"></i>&nbsp;Copy</button>
-                        <button class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
+                        <button id="Brac Helpline" class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
                     </div>
                 </div>
                 <div class="card">
@@ -180,7 +180,7 @@
                         <div class="img-left"><img src="./assets/emergency.png" alt="emergency-img" height="32px" width="32px">
                         </div>
                         <div class="img-right">
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart heart-icon"></i>
                         </div>
                     </div>
                     <h3>Bangladesh Railway Helpline</h3>
@@ -189,7 +189,7 @@
                     <p class="card-tag">Travel</p>
                     <div class="btn-div">
                         <button class="btn-left"><i class="fa-solid fa-clone"></i>&nbsp;Copy</button>
-                        <button class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
+                        <button id="Bangladesh Railway Helpline" class="btn-right"><i class="fa-solid fa-phone"></i>&nbsp;Call</button>
                     </div>
                 </div>
             </div>
@@ -197,13 +197,15 @@
         <div class="left-section">
             <div class="sidebar-nav">
                 <p><i class="fa-regular fa-clock"></i>&nbsp;Call History</p>
-                <button class="side-bar-btn">Clear</button>
+                <button id="clear-btn" class="side-bar-btn">Clear</button>
             </div>
-            
+            <div class="history-cards">
+
+            </div>
         </div>
     </main>
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
