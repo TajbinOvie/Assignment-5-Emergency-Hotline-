@@ -301,4 +301,16 @@ main {
     .left-section {
         border-radius: 12px;
     }
+
+    .btn-div {
+        display: flex;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .btn-div button {
+        width: 100%;
+        padding: 10px 0;
+    }
+    
 }

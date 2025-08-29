@@ -438,7 +438,7 @@ for (const copy of copys) {
         const number = card.querySelector('h2').innerText;
 
         navigator.clipboard.writeText(number).then(function (e) {
-            alert('📋 Copied: ' + number);
+            alert('📋 Copied number: ' + number);
 
         });
 
